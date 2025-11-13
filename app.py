@@ -1,14 +1,13 @@
 from flask import Flask
-
+import os
+import json
 app = Flask(__name__)
 
 @app.route('/')
 def home():
     return "Welcome to the Homepage!"
 
-@app.route('/about')
-def about():
-    return "This is the About Page."
+
 
 @app.route('/contact')
 def contact():
