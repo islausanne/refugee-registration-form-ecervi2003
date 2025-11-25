@@ -2,12 +2,23 @@
 {% block content %}
 <h2>Refugee Registration Form</h2>
 <form method="POST" action="{{ url_for('submit_form') }}">
-  <p><input type="text" name="name"   placeholder="First name" required></p>
-     <p><input type="text" name="last_name"  placeholder=" Second name" required></p>
-     <p><input type="text" name="Date of birth" placeholder="DD/MM/YY " required></p>
-  <p><input type="text" name="country" placeholder="Country of origin" required></p>
-  <p><input type="number" name="age" placeholder="Age" required></p>
+  <h5>First name:</h5>
+    <p><input type="text" name=" first name"   placeholder="First name" required></p>
+    <h5> Last name:</h5>
+     <p><input type="text" name="last name"  placeholder=" Last name" required></p>
+    <h5>country</h5>
+    <p><input type="text" name="country" placeholder="Country of origin" required></p>
+    <h5> Date of birth:</h5>
+     <p><input type="date" name="Date of birth" id =date_of_birth required></p>
+    <h5> Gender:</h5>
+     <p><input type="text" name="gender" placeholder="male/female " required></p>
+    <h5> Medical Condition:</h5>
+     <p><input type="text" name="medical condition" placeholder="yes/no" required></p>
+    <h5> Phone number: </h5>
+     <p><input type="text" name="phone number" placeholder="(+00) 00 000 00 00" required></p>
+    <h5> Email:</h5>
     <p><input type="email" name="email" placeholder="email" required></p>
+
   <p><button type="submit">Submit</button></p>
 </form>
 {% endblock %}

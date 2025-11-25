@@ -5,15 +5,24 @@
   <table>
     <tr>
       <th>Name</th>
+        <th>last_name</th>
       <th>Country</th>
-      <th>Age</th>
-         <th>email</th>
+      <th>date_of_birth</th>
+        <th>gender</th>
+        <th>medical_condition</th>
+        <th>family_size</th>
+         <th>phone_number</th>
+        <th>email</th>
     </tr>
     {% for person in registrations %}
       <tr>
         <td>{{ person.name }}</td>
+        <td>{{ person.last_name }}</td>
         <td>{{ person.country }}</td>
-        <td>{{ person.age }}</td>
+          <td>{{ person.date_of_birth}}</td>
+           <td>{{ person.gender }}</td>
+        <td>{{ person.medical_condition }}</td>
+        <td>{{ person.phone_number }}</td>
           <td>{{ person.email }}</td>
       </tr>
     {% endfor %}
