@@ -1,0 +1,79 @@
+[
+  {
+    "first_name": "Emiliano",
+    "last_name": "Cervi",
+    "country": "Ukraine",
+    "date of birth": "2025-12-03",
+    "gender": "male",
+    "medical condition": "yes",
+    "family size": "8",
+    "phone number": "22222222222",
+    "email": "ecervi@islstudent.ch"
+  },
+  {
+    "first_name": "Emiliano",
+    "last_name": "Cervi",
+    "country": "Ukraine",
+    "date of birth": "2025-12-04",
+    "gender": "male",
+    "medical condition": "yes",
+    "family size": "8",
+    "phone number": "22222222222",
+    "email": "ecervi@islstudent.ch"
+  },
+  {
+    "first_name": "Emiliano",
+    "last_name": "Cervi",
+    "country": "Afghanistan",
+    "date of birth": "2025-12-03",
+    "gender": "male",
+    "medical condition": "yes",
+    "family_size": "8",
+    "phone number": "22222222222",
+    "email": "ecervi@islstudent.ch"
+  },
+  {
+    "first_name": "Emiliano",
+    "last_name": "Cervi",
+    "country": "Afghanistan",
+    "date_of_birth": "2025-12-04",
+    "gender": "male",
+    "medical_condition": "yes",
+    "family_size": "8",
+    "phone_number": "22222222222",
+    "email": "ecervi@islstudent.ch"
+  },
+  {
+    "first_name": "Emiliano",
+    "last_name": "Cervi",
+    "country": "Ukraine",
+    "date_of_birth": "2025-12-11",
+    "gender": "male",
+    "medical_condition": "yes",
+    "family_size": "8",
+    "phone_number": "22222222222",
+    "email": "ecervi@islstudent.ch"
+  },
+  {
+    "first_name": "Emiliano",
+    "last_name": "Cervi",
+    "country": "Ukraine",
+    "date_of_birth": "2025-12-11",
+    "gender": "male",
+    "medical_condition": "yes",
+    "family_size": "4",
+    "phone_number": "222222222222",
+    "email": "ecervi@islstudent.ch"
+  },
+  {
+    "first_name": "6",
+    "last_name": "6",
+    "country": "select",
+    "date_of_birth": "2025-12-05",
+    "gender": "male",
+    "medical_condition": "6",
+    "family_size": "fiin mustad ",
+    "phone_number": "es",
+    "email": "generoso@xckxmc"
+  }
+]
