@@ -17,7 +17,7 @@ def index():
 def register():
     return render_template('register.html')
 
-# Handle form submission (students will add JSON save code here)
+# form fields to POST
 @app.route('/submit', methods=['POST'])
 def submit_form():
     first_name = request.form['first_name']
@@ -32,23 +32,23 @@ def submit_form():
 
 
 
-    # Check if file exists
+    # Checks if the file exists and loads the json file information into data
     if os.path.exists('registrations.json'):
         with open('registrations.json', 'r') as file:
             data = json.load(file)
     else:
         data = []
 
-    # Add the new registration
+
     data.append({'first_name':first_name,'last_name':last_name, 'country': country, 'date_of_birth': date_of_birth,'gender':gender, 'medical_condition':medical_condition,'family_size':family_size,'phone_number':phone_number,'email':email })
 
-    # Save all registrations back to the file
+    #saves information and sends user to the homepage
     with open('registrations.json', 'w') as file:
         json.dump(data, file, indent=2)
 
     return redirect(url_for('index'))
 
-# Display stored registrations (students will add JSON reading code here)
+# Gives you a new app route called "view" that collects information from the json file and sends it to the view
 @app.route('/view')
 def view_registrations():
     with open('registrations.json', 'r') as file:
